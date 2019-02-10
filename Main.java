@@ -14,9 +14,11 @@ public class Main
     {
         Tier ente = new Ente();
         Tier baer = new Bär();
+        Tier kuh = new Kuh();
         System.out.println("\n*** Main beginnt:");
         ente.gibLaut();
         baer.gibLaut();
+        kuh.gibLaut();
         System.out.println("*** Main endet.");
     }
 }
